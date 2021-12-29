@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* this is where the navbar begins */
+
+.main-nav {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #01201693;
+}
+
+.inner-nav {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+.logo {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100px;
+}
+
+.logo h1 span {
+    font-weight: 800px;
+}
+
+.nav {
+    float: right;
+    height: 100%;
+}
+
+.nav a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.nav a:last-child{
+    padding: right 0;
+}
+
+.nav a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* welcome page starts here */
+body, html{
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('white\ car.jpeg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #cccccc;
+}
+
+.box {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #221f1f93;
+    opacity: 1;
+    width: 300px;
+    padding: 40px;
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.box input[type = "text"],.box input[type = "number"],.box input[type = "email"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #00FFFF;
+    width: 200px;
+    padding: 14px 10px;
+    outline: none;
+    color: white;
+    border-radius: 2%;
+    transition: 0.3s;
+}
+.box input[type = "text"] #comment{
+    height: 20vh;
+}
+
+.box input[type = "text"]:focus,.box input[type = "number"]:focus,.box input[type = "email"]:focus{
+    width: 280px;
+    border-color: #00FA9A;
+}
+
+.box input[type = "button"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #00FA9A;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type = "button"]:hover{
+    background: #008080;
+}
+
+::placeholder {
+    color: white;
+    font-size: 1.0em;
+    font-weight: 20px;
+}
+/* .welcome p {
+    background-color: #071330;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    top: 50%;
+    box-sizing: content-box;
+    width: fit-content;
+    block-size: fit-content;
+    margin: 30px;
+    padding: 2rem;
+    border: 6px solid white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.welcome p a {
+  color: 	#32cdc5; 
+}
+
+.welcome p a:hover {
+  color: white;
+} */
+
+
+  
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: none;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+

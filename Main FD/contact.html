@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <script src="login.js"></script>
+</head>
+<body>
+    <!-- Nav bar starts here -->
+    <div class="main-nav" id="mnav">
+        <div class="inner-nav">
+            <div class="logo">
+                <h1>MICADU<span> SERVICES</span></h1>
+            </div>
+            <ul class="nav">
+                <a href="welcome.html">
+                    <li onclick="location.href='welcome.html';"  style="cursor:pointer;"><i class="fa fa-fw fa-home"></i>Home</li>
+                </a>
+                <a href="info.html">
+                    <li onclick="location.href='info.html';"  style="cursor:pointer;">About</li>
+                </a>
+                <a href="slides.html">
+                    <li onclick="location.href='slides.html';"  style="cursor:pointer;">Gallery</li>
+                </a>
+                <a href="contact.html">
+                    <li onclick="location.href='contact.html';"  style="cursor:pointer;"><i class="fa fa-fw fa-envelope"></i>Contact</li>
+                </a>
+            </ul>
+        </div>
+
+    </div>
+    <!-- Login form begins here -->
+    <section class="welcome">
+        <form id="sign-in" name="myForm" class="box" action="" method="POST">
+            <h1>Contact-Us</h1>
+            <input type="text" name="username" id="username" placeholder="Full Name">
+            <input type="number" name="telephone" id="telephone" placeholder="Telephone">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="text" name="comment" id="comment" placeholder="Write something.." style="height:40px">
+            <!-- <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> -->
+            <p id="error"></p>
+            <p id="sucess"></p>
+            <input onClick="location.href='#'" type="button" id="submit" value="Submit">
+    
+        </form>
+    </section>
+    
+    <div>
+        <footer class="footer"><em>Micadu @ <span>2021</span></em></footer>
+    </div>
+    
+</body>
+</html>
